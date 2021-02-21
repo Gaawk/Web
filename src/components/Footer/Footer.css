@@ -1,0 +1,32 @@
+.footer{
+    flex-shrink: 0;
+    padding-bottom: 25px;
+
+}
+
+
+.language{
+    margin-right:20px;
+}
+.text-left{
+    font-size: 12px;
+    font-weight: 600;
+}
+.language-choice{
+    margin-right:15px;
+}
+/* ==========  FOOTER FOR LANDING PAGE ===========  */
+.footer-right-item{
+  margin-left: 13px;
+}
+
+
+
+/* DESIGNS FOR DIFFERENT SCREEN */
+
+@media(max-width: 570px){
+	
+	.text-left{
+        font-size: 0.6em;
+    }
+}
