@@ -1,24 +1,23 @@
 import React from "react";
 import { Route, Redirect } from "react-router-dom";
-import {connect }          from "react-redux";
+import { connect } from "react-redux";
 
-
- const ProtectedRoute = ({ currentUser,component: Component, ...rest }) => {
-    
+const ProtectedRoute = ({ currentUser, component: Component, ...rest }) => {
   return (
     <Route
       {...rest}
-      render={props => {
-        if (currentUser.isAuthenticated===true) {
-          return <Component currentUser={currentUser}{...props} />;
+      render={(props) => {
+        console.log(props.location.pathname);
+        if (currentUser.isAuthenticated === true) {
+          return <Component currentUser={currentUser} {...props} />;
         } else {
           return (
             <Redirect
               to={{
                 pathname: "/",
                 state: {
-                  from: props.location
-                }
+                  from: props.location,
+                },
               }}
             />
           );
@@ -28,9 +27,9 @@ import {connect }          from "react-redux";
   );
 };
 
-const mapStateToProps=state=>{
-    return {
-        currentUser: state.currentUser
-    }
-}
-export default connect(mapStateToProps)(ProtectedRoute) 
+const mapStateToProps = (state) => {
+  return {
+    currentUser: state.currentUser,
+  };
+};
+export default connect(mapStateToProps)(ProtectedRoute);

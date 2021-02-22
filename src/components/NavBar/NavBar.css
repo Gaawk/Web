@@ -26,33 +26,30 @@
 
  */
 
- nav{
-	background: black;
-	/* height: 300px; */
+nav {
+  background: black;
+  /* height: 300px; */
 }
 
-.nav-text{
-	color:white;
+.nav-text {
+  color: white;
 }
 .nav-Link-auth:hover,
-.nav-text:hover{
-	color:white;
-	text-decoration: none;
-	cursor: pointer;
+.nav-text:hover {
+  color: white;
+  text-decoration: none;
+  cursor: pointer;
 }
 
-.nav-button{
-	color: white;
-	background-color: #44C8D4;
+.nav-button {
+  color: white;
+  background-color: #44c8d4;
 }
-.nav-question-container{
-	-webkit-transform: translateY(5px);
-	    -ms-transform: translateY(5px);
-	        transform: translateY(5px);
+.nav-question-container {
+  -webkit-transform: translateY(5px);
+  -ms-transform: translateY(5px);
+  transform: translateY(5px);
 }
-.nav-question{
-	margin-right: 10px;
+.nav-question {
+  margin-right: 10px;
 }
-
-
-

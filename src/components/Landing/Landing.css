@@ -1,93 +1,89 @@
-
-
-.signup-form-input-bar{
-	width: 100%;
+.signup-form-input-bar {
+  width: 100%;
 }
 /* .signup-form-input-bar-container{
 	padding: 0;
 } */
 
-#download-app-title-container{
-	width:100%;
-	text-align: center;
+#download-app-title-container {
+  width: 100%;
+  text-align: center;
 }
-#download-app-title-container span{
-	font-size: 25px;
-	font-weight: 600;
-	font-stretch: normal;
-}
-
-
-.errorInput{
-	/* border: none; */
-	/* outline:1px solid red; */
-	box-shadow: 0 0 0 2px rgb(255, 179, 179);
-	/* We could set the box shadow */
-}
-.errorText{
-	color: red;
-	font-size: 0.9rem;
+#download-app-title-container span {
+  font-size: 25px;
+  font-weight: 600;
+  font-stretch: normal;
 }
 
-#start-onboarding-layout{
-	margin: 50px auto;
-
+.errorInput {
+  /* border: none; */
+  /* outline:1px solid red; */
+  box-shadow: 0 0 0 2px rgb(255, 179, 179);
+  /* We could set the box shadow */
 }
-#landing-content-container{
-	display: flex;
-	justify-content: space-between;
+.errorText {
+  color: red;
+  font-size: 0.9rem;
+}
+
+#start-onboarding-layout {
+  margin: 50px auto;
+}
+#landing-content-container {
+  display: flex;
+  justify-content: space-between;
 }
 #landing-content-right,
-#landing-content-left{
-	min-width: 300px;
+#landing-content-left {
+  min-width: 300px;
 }
-#landing-left-header{
-margin-bottom: 26px;
+#landing-left-header {
+  margin-bottom: 26px;
 }
-#landing-app-links-container{
-	margin-bottom: 40px;
+#landing-app-links-container {
+  margin-bottom: 40px;
 }
-.app-link-image{
-	padding-right: 10px;
-	width: 40%;
+.app-link-image {
+  padding-right: 10px;
+  width: 40%;
 }
-.app-link-image:hover{
-	cursor: pointer;
+.app-link-image:hover {
+  cursor: pointer;
 }
 
-#landing-ad-space{
-	display: block;
-	width: 100%;
-	height: 314px;
-	background-color: #cfc6a3;
+#landing-ad-space {
+  display: block;
+  width: 100%;
+  height: 314px;
+  background-color: #cfc6a3;
 }
 
 /* ========== MARKETING SECTION ==========*/
-#marketing-call-to-action-container{
-	width:100%;
-	background-color: #44C8D4;
-	padding-top: 10px;
-	padding-bottom: 10px;
+#marketing-call-to-action-container {
+  width: 100%;
+  background-color: #44c8d4;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
-#marketing-call-to-action-container a:hover{
- text-decoration: none;
+#marketing-call-to-action-container a:hover {
+  text-decoration: none;
 }
-#marketing-call-to-action{
-	color:white;
+#marketing-call-to-action {
+  color: white;
 }
-#Marketing-section{
-	height: 100vh;
-	background: url('../../images/marketing.jpg') rgba(0, 0, 0, 0.5);
-	/* height: 100%; */
-	/* Center and scale the image nicely */
-	background-position: center;
-	background-repeat: no-repeat;
-	background-size: cover;
-	background-blend-mode: multiply;
+#Marketing-section {
+  height: 100vh;
+  background: url("../../images/marketing.jpg") rgba(0, 0, 0, 0.5);
+  /* height: 100%; */
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-blend-mode: multiply;
 }
 /* ================================ MARKETING SPACE =========================== */
-#landing-container{
-	margin-bottom: 0px;
+#landing-container {
+  margin-bottom: 0px;
 }
 
 /* =============================== Different screens =========================== */
@@ -96,13 +92,13 @@ margin-bottom: 26px;
 	width: 40%;
 }
 } */
-@media(max-width: 767px){
-	#landing-content-left{
-		min-width: 300px;
-		margin-top: 30px auto 10px
-	}
-	#landing-content-right{
-		width:300px;
-		margin: 50px auto 0px;
-	}
+@media (max-width: 767px) {
+  #landing-content-left {
+    min-width: 300px;
+    margin-top: 30px auto 10px;
+  }
+  #landing-content-right {
+    width: 300px;
+    margin: 50px auto 0px;
+  }
 }
